@@ -1,0 +1,82 @@
+/* App.css */
+
+/* General Styles */
+body {
+    background-color: rgb(226, 159, 100); /* Light background for the entire page */
+    font-family: 'Arial', sans-serif; /* Set a default font */
+  }
+  
+  .container {
+    margin-top: 20px; /* Add some spacing at the top */
+    padding: 20px; /* Add some padding inside the container */
+    background: rgb(164, 223, 113); /* Background color for the main container */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  /* Headings */
+  h1, h3 {
+    color: rgba(188, 35, 170, 0.904); /* Dark gray color for headings */
+    font-weight: 600; /* Make headings bold */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  h1{
+    text-align:center;
+  }
+  
+  /* Card Styles */
+  .card {
+    border: none; /* Remove the default border */
+    border-radius: 5px; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  /* Budget Planner Specific Styles */
+  .budget, .remaining, .expense-total {
+    background: #519ae3; /* Light background for budget info cards */
+    border-left: 5px solid #6c757d; /* Add a colored border to differentiate cards */
+    padding: 15px;
+    margin: 10px 0; /* Space between the budget cards */
+    border-radius: 8px;
+  }
+  
+  /* Expense List Styling */
+  .expense-list {
+    margin-top: 20px;
+  }
+  
+  .expense-item {
+    background: #709ac4;
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .expense-item:last-child {
+    border-bottom: none; /* Remove border for last item */
+  }
+  
+  /* Add Expense Form Styles */
+  .add-expense-form {
+    background: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .add-expense-form input,
+  .add-expense-form button {
+    border-radius: 4px;
+  }
+  
+  /* Button Styles */
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3; /* Darken button on hover */
+  }
+  
